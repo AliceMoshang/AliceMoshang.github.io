@@ -28,9 +28,9 @@ input[disabled="disabled"]{
 }
 .wrapper{
     position: relative;
-	display: block;
-	margin: 0 auto;
-	width: 1200px;
+    display: block;
+    margin: 0 auto;
+    width: 1200px;
 }
  textarea{
   box-sizing: border-box;
@@ -95,6 +95,12 @@ input[disabled="disabled"]{
 }
 .ca{
     color: #aaa !important;
+}
+.cd{
+   color: #ddd !important; 
+}
+.ce{
+   color: #eee !important; 
 }
 .cf{
     color: #fff !important;
