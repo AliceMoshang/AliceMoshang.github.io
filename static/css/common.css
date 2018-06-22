@@ -590,6 +590,9 @@ input[disabled="disabled"]{
 .mb-10{
     margin-bottom: 0.56rem !important;
 }
+.mb-15{
+    margin-bottom: 0.83rem !important;
+}
 .mb-20{
     margin-bottom: 1.11rem !important;
 }
