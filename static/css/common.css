@@ -65,7 +65,7 @@ input[disabled="disabled"]{
     background-color: #ddd !important;
 }
 .bg-main{
-    background-color: #DE9C2C !important;
+    background-color: #C43 !important;
 }
 .bg-orange{
     background-color: #f08519 !important;
@@ -114,7 +114,7 @@ input[disabled="disabled"]{
     color: #76b2fb !important;
 }
 .c-red{
-    color: #ff3232 !important;
+    color: #C43 !important;
 }
 .c-orange{
     color: #f08519 !important;
@@ -163,49 +163,71 @@ input[disabled="disabled"]{
     display: table;
     clear: both;
 }
+@media screen and (min-width: 1024px){
+  html{
+    font-size: 20px;
+  }
+ }
+@media screen and (max-width: 768px){
+  html{
+    font-size: 20px;
+  }
+ }
+@media screen and (max-width: 420px){
+  html{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 380px){
+  html{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 330px){
+  html{
+    font-size: 12px;
+  }
+}
 /*字体大小*/
 .fs0{
     font-size: 0;
 }
 .fs12{
-    font-size: 12px!important;
-}
-.fs13{
-    font-size: 13px!important;
+    font-size: 0.67rem!important;
 }
 .fs14{
-    font-size: 14px!important;
+    font-size: 0.78rem!important;
 }
 .fs15{
-    font-size: 15px!important;
+    font-size: 0.83rem!important;
 }
 .fs16{
-    font-size: 16px!important;
+    font-size: 0.89rem!important;
 }
 .fs18{
-    font-size: 18px!important;
+    font-size: 1rem!important;
 }
 .fs20{
-    font-size: 20px!important;
+    font-size: 1.11rem!important;
 }
 .fs22{
-    font-size: 22px!important;
+    font-size: 1.22rem!important;
 }
 .fs24{
-    font-size: 24px!important;
+    font-size: 1.34rem!important;
 }
 .fs26{
-    font-size: 26px!important;
+    font-size: 1.44rem!important;
 }
 /*边框*/
 .border0{
     border:0 !important;
 }
 .b{
-    border: 1px solid #f3f3f3;
+    border: 1px solid #ddd;
 }
 .bb{
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
 }
 .bt {
     border-top: 1px solid #f3f3f3;
@@ -216,7 +238,9 @@ input[disabled="disabled"]{
 .bl{
     border-left: 1px solid #f3f3f3;
 }
-
+.b-r-4{
+    border-radius: 4px;
+}
 .ofh{
     overflow: hidden;
 }
@@ -375,235 +399,246 @@ input[disabled="disabled"]{
     padding: 0 !important;
 }
 .pd-5{
-    padding: 5px !important;
+    padding: 0.28rem !important;
 }
 .pd-10{
-    padding: 10px !important;
+    padding: 0.56rem !important;
+}
+.pd-15{
+    padding: 0.83rem !important;
 }
 .pd-20{
-    padding: 20px !important;
+    padding: 1.11rem !important;
 }
 .pd-30{
-    padding: 30px !important;
+    padding: 1.67rem !important;
 }
 .pd-50{
-    padding: 50px !important;
+    padding: 2.77rem !important;
 }
 .pd-100{
-    padding: 100px !important;
+    padding: 5.56rem !important;
 }
 .pt-0{
-    padding-top: 0px !important;
+    padding-top: 0rem !important;
 }
 .pt-5{
-    padding-top: 5px !important;
+    padding-top: 0.28rem !important;
 }
 .pt-10{
-    padding-top: 10px !important;
+    padding-top: 0.56rem !important;
 }
 .pt-20{
-    padding-top: 20px !important;
+    padding-top: 1.11rem !important;
 }
 .pt-30{
-    padding-top: 30px !important;
+    padding-top: 1.67rem !important;
 }
 .pt-40{
-    padding-top: 40px !important;
+    padding-top: 2.22rem !important;
 }
 .pt-50{
-    padding-top: 50px !important;
+    padding-top: 2.77rem !important;
 }
 .pt-80{
-    padding-top: 80px !important;
+    padding-top: 4.44rem !important;
 }
 .pt-100{
-    padding-top: 100px !important;
+    padding-top: 5.56rem !important;
 }
 .pl-0{
     padding-left: 0 !important;
 }
 .pl-5{
-    padding-left: 5px !important;
+    padding-left: 0.28rem !important;
 }
 .pl-10{
-    padding-left: 10px !important;
+    padding-left: 0.56rem !important;
 }
 .pl-15{
-    padding-left: 15px !important;
+    padding-left: 0.83rem !important;
 }
 .pl-20{
-    padding-left: 20px !important;
+    padding-left: 1.11rem !important;
 }
 .pl-30{
-    padding-left: 30px !important;
+    padding-left: 1.67rem !important;
 }
 .pl-40{
-    padding-left: 50px !important;
+    padding-left: 2.22rem !important;
 }
 .pl-50{
-    padding-left: 50px !important;
+    padding-left: 2.77rem !important;
 }
 .pl-60 {
-    padding-left: 60px !important;
+    padding-left: 3.33rem !important;
 }
 .pl-100{
-    padding-left: 100px !important;
+    padding-left: 5.56rem !important;
 }
 .pr-0{
     padding-right: 0 !important;
 }
 .pr-5{
-    padding-right: 5px !important;
+    padding-right: 0.28rem !important;
 }
 .pr-10{
-    padding-right: 10px !important;
+    padding-right: 0.56rem !important;
 }
 .pr-15{
-    padding-right: 15px !important;
+    padding-right: 0.83rem !important;
 }
 .pr-20{
-    padding-right: 20px !important;
+    padding-right: 1.11rem !important;
 }
 .pr-30{
-    padding-right: 30px !important;
+    padding-right: 1.67rem !important;
 }
 .pr-40{
-    padding-right: 40px !important;
+    padding-right: 2.22rem !important;
 }
 .pr-50{
-    padding-right: 50px !important;
+    padding-right: 2.77rem !important;
 }
 .pr-80{
-    padding-right: 80px !important;
+    padding-right: 4.44rem !important;
 }
 .pr-100{
-    padding-right: 100px !important;
+    padding-right: 5.56rem !important;
 }
 .pb-0{
     padding-bottom: 0 !important;
 }
 .pb-5{
-    padding-bottom: 5px !important;
+    padding-bottom: 0.28rem !important;
 }
 .pb-10{
-    padding-bottom: 10px !important;
+    padding-bottom: 0.56rem !important;
 }
 .pb-20{
-    padding-bottom: 20px !important;
+    padding-bottom: 1.11rem !important;
 }
 .pb-30{
-    padding-bottom: 30px !important;
+    padding-bottom: 1.67rem !important;
 }
 .pb-50{
-    padding-bottom: 50px !important;
+    padding-bottom: 2.77rem !important;
 }
 .pb-80{
-    padding-bottom: 80px !important;
+    padding-bottom: 4.44rem !important;
 }
 .pb-100{
-    padding-bottom: 100px !important;
+    padding-bottom: 5.56rem !important;
 }
 .mt-0{
     margin-top: 0px !important;
 }
 .mt-10{
-    margin-top: 10px !important;
+    margin-top: 0.56rem !important;
 }
 .mt-20{
-    margin-top: 20px !important;
+    margin-top: 1.11rem !important;
 }
 .mt-30{
-    margin-top: 30px !important;
+    margin-top: 1.67rem !important;
 }
 .mt-40{
-    margin-top: 40px !important;
+    margin-top: 2.22rem !important;
 }
 .mt-50{
-    margin-top: 50px !important;
+    margin-top: 2.77rem !important;
 }
 .mt-100{
-    margin-top: 100px !important;
+    margin-top: 5.56rem !important;
 }
 .ml-10{
-    margin-left: 10px !important;
+    margin-left: 0.56rem !important;
 }
 .ml-20{
-    margin-left: 20px !important;
+    margin-left: 1.11rem !important;
 }
 .ml-30{
-    margin-left: 30px !important;
+    margin-left: 1.67rem !important;
 }
 .ml-50{
-    margin-left: 50px !important;
+    margin-left: 2.77rem !important;
 }
 .ml-100{
-    margin-left: 100px !important;
+    margin-left: 5.56rem !important;
 }
 .mr-10{
-    margin-right: 10px !important;
+    margin-right: 0.56rem !important;
 }
 .mr-20{
-    margin-right: 20px !important;
+    margin-right: 1.11rem !important;
 }
 .mr-30{
-    margin-right: 30px !important;
+    margin-right: 1.67rem !important;
 }
 .mr-50{
-    margin-right: 50px !important;
+    margin-right: 2.77rem !important;
 }
 .mr-100{
-    margin-right: 100px !important;
+    margin-right: 5.56rem !important;
 }
 .mb-0{
     margin-bottom: 0 !important;
 }
 .mb-5{
-    margin-bottom: 5px!important;
+    margin-bottom: 0.28rem !important;
 }
 .mb-10{
-    margin-bottom: 10px !important;
+    margin-bottom: 0.56rem !important;
 }
 .mb-20{
-    margin-bottom: 20px !important;
+    margin-bottom: 1.11rem !important;
 }
 .mb-30{
-    margin-bottom: 30px !important;
+    margin-bottom: 1.67rem !important;
 }
 .mb-40{
-    margin-bottom:40px !important;
+    margin-bottom:2.22rem !important;
 }
 .mb-50{
-    margin-bottom: 50px !important;
+    margin-bottom: 2.77rem !important;
 }
 .mb-60{
-    margin-bottom: 60px !important;
+    margin-bottom: 3.33rem !important;
 }
 .mb-100{
-    margin-bottom: 100px !important;
+    margin-bottom: 5.56rem !important;
 }
 .plr-5{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0.28rem;
+    padding-right: 0.28rem;
 }
 .plr-10 {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0.56rem;
+    padding-right: 0.56rem;
 }
 .plr-15 {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0.83rem;
+    padding-right: 0.83rem;
 }
 .plr-20 {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.11rem;
+    padding-right: 1.11rem;
+}
+.plr-30 {
+    padding-left: 1.67rem ;
+    padding-right: 1.67rem ;
 }
 .ptb-10{
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+    padding-top: 0.56rem !important;
+    padding-bottom: 0.56rem !important;
 }
 .ptb-15{
-    padding-top:15px;
-    padding-bottom:15px;
+    padding-top: 0.83rem !important;
+    padding-bottom: 0.83rem !important;
+}
+.ptb-20{
+    padding-top: 1.11rem  !important;
+    padding-bottom: 1.11rem  !important;
 }
 /*分隔线*/
 .gapline-v{
@@ -731,20 +766,20 @@ input[disabled="disabled"]{
 
 /*按钮*/
 .btn-yz{
-    width: 120px;
-    font-size:14px ;
-    padding:5px 5px ;
+    width: 6.67rem;
+    font-size:0.78rem ;
+    padding:0.28rem 0.28rem ;
 }
 .btn-block{
     display: block;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 1.67rem;
     outline: none;
     border: none;
-    padding: 2px 12px;
+    padding: 2px 0.67rem;
     box-shadow: 2px 1px 1px #eee;
     color: #999;
-    font-size: 14px;
+    font-size: 0.78rem;
     background: #f3f3f3
 }
 .btn-red{
