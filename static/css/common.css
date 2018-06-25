@@ -7,6 +7,7 @@
     -moz-osx-font-smoothing: grayscale;
     transition: all .5s ease 0s;
     color: #333;
+
 }
 html, body{
     height: 100%;
@@ -50,11 +51,7 @@ input[disabled="disabled"]{
 ::-webkit-input-placeholder { color:#bbb; }
 :-ms-input-placeholder { color:#bbb; }
 
-.lab{
-    width: 4px;
-    height: 16px;
-    margin-top: 3px;
-}
+
 
 /***********************************公共类**************************/
 /*背景色*/
@@ -118,6 +115,9 @@ input[disabled="disabled"]{
 }
 .c-orange{
     color: #f08519 !important;
+}
+.c-green{
+    color: #67C23A !important;
 }
 
 
@@ -267,13 +267,13 @@ input[disabled="disabled"]{
     font-weight: bold;
 }
 .ti-20{
-    text-indent: 20px;
+    text-indent: 1.111111rem;
 }
 .lh-0{
     line-height: 0 !important;
 }
 .lh-30{
-    line-height: 30px !important;
+    line-height: 1.666667rem !important;
 }
 .invisabiliy{
     visibility: hidden;
@@ -399,252 +399,252 @@ input[disabled="disabled"]{
     padding: 0 !important;
 }
 .pd-5{
-    padding: 0.28rem !important;
+    padding: 0.277778rem !important;
 }
 .pd-10{
-    padding: 0.56rem !important;
+    padding: 0.555556rem !important;
 }
 .pd-15{
-    padding: 0.83rem !important;
+    padding: 0.833333rem !important;
 }
 .pd-20{
-    padding: 1.11rem !important;
+    padding: 1.111111rem !important;
 }
 .pd-30{
-    padding: 1.67rem !important;
+    padding: 1.666667rem !important;
 }
 .pd-50{
-    padding: 2.77rem !important;
+    padding: 2.777778rem !important;
 }
 .pd-100{
-    padding: 5.56rem !important;
+    padding: 5.555556rem !important;
 }
 .pt-0{
     padding-top: 0rem !important;
 }
 .pt-5{
-    padding-top: 0.28rem !important;
+    padding-top: 0.277778rem !important;
 }
 .pt-10{
-    padding-top: 0.56rem !important;
+    padding-top: 0.555556rem !important;
 }
 .pt-20{
-    padding-top: 1.11rem !important;
+    padding-top: 1.111111rem !important;
 }
 .pt-30{
-    padding-top: 1.67rem !important;
+    padding-top: 1.666667rem !important;
 }
 .pt-40{
-    padding-top: 2.22rem !important;
+    padding-top: 2.222222rem !important;
 }
 .pt-50{
-    padding-top: 2.77rem !important;
+    padding-top: 2.777778rem !important;
 }
 .pt-80{
-    padding-top: 4.44rem !important;
+    padding-top: 4.444444rem !important;
 }
 .pt-100{
-    padding-top: 5.56rem !important;
+    padding-top: 5.555556rem !important;
 }
 .pl-0{
     padding-left: 0 !important;
 }
 .pl-5{
-    padding-left: 0.28rem !important;
+    padding-left: 0.277778rem !important;
 }
 .pl-10{
-    padding-left: 0.56rem !important;
+    padding-left: 0.555556rem !important;
 }
 .pl-15{
-    padding-left: 0.83rem !important;
+    padding-left: 0.833333rem !important;
 }
 .pl-20{
-    padding-left: 1.11rem !important;
+    padding-left: 1.111111rem !important;
 }
 .pl-30{
-    padding-left: 1.67rem !important;
+    padding-left: 1.666667rem !important;
 }
 .pl-40{
-    padding-left: 2.22rem !important;
+    padding-left: 2.222222rem !important;
 }
 .pl-50{
-    padding-left: 2.77rem !important;
+    padding-left: 2.777778rem !important;
 }
 .pl-60 {
-    padding-left: 3.33rem !important;
+    padding-left: 3.333333rem !important;
 }
 .pl-100{
-    padding-left: 5.56rem !important;
+    padding-left: 5.555556rem !important;
 }
 .pr-0{
     padding-right: 0 !important;
 }
 .pr-5{
-    padding-right: 0.28rem !important;
+    padding-right: 0.277778rem !important;
 }
 .pr-10{
-    padding-right: 0.56rem !important;
+    padding-right: 0.555556rem !important;
 }
 .pr-15{
-    padding-right: 0.83rem !important;
+    padding-right: 0.833333rem !important;
 }
 .pr-20{
-    padding-right: 1.11rem !important;
+    padding-right: 1.111111rem !important;
 }
 .pr-30{
-    padding-right: 1.67rem !important;
+    padding-right: 1.666667rem !important;
 }
 .pr-40{
-    padding-right: 2.22rem !important;
+    padding-right: 2.222222rem !important;
 }
 .pr-50{
-    padding-right: 2.77rem !important;
+    padding-right: 2.777778rem !important;
 }
 .pr-80{
-    padding-right: 4.44rem !important;
+    padding-right: 4.444444rem !important;
 }
 .pr-100{
-    padding-right: 5.56rem !important;
+    padding-right: 5.555556rem !important;
 }
 .pb-0{
     padding-bottom: 0 !important;
 }
 .pb-5{
-    padding-bottom: 0.28rem !important;
+    padding-bottom: 0.277778rem !important;
 }
 .pb-10{
-    padding-bottom: 0.56rem !important;
+    padding-bottom: 0.555556rem !important;
 }
 .pb-20{
-    padding-bottom: 1.11rem !important;
+    padding-bottom: 1.111111rem !important;
 }
 .pb-30{
-    padding-bottom: 1.67rem !important;
+    padding-bottom: 1.666667rem !important;
 }
 .pb-50{
-    padding-bottom: 2.77rem !important;
+    padding-bottom: 2.777778rem !important;
 }
 .pb-80{
-    padding-bottom: 4.44rem !important;
+    padding-bottom: 4.444444rem !important;
 }
 .pb-100{
-    padding-bottom: 5.56rem !important;
+    padding-bottom: 5.555556rem !important;
 }
 .mt-0{
     margin-top: 0px !important;
 }
 .mt-5{
-    margin-top: 0.28rem !important;
+    margin-top: 0.277778rem !important;
 }
 .mt-10{
-    margin-top: 0.56rem !important;
+    margin-top: 0.555556rem !important;
 }
 .mt-20{
-    margin-top: 1.11rem !important;
+    margin-top: 1.111111rem !important;
 }
 .mt-30{
-    margin-top: 1.67rem !important;
+    margin-top: 1.666667rem !important;
 }
 .mt-40{
-    margin-top: 2.22rem !important;
+    margin-top: 2.222222rem !important;
 }
 .mt-50{
-    margin-top: 2.77rem !important;
+    margin-top: 2.777778rem !important;
 }
 .mt-100{
-    margin-top: 5.56rem !important;
+    margin-top: 5.555556rem !important;
 }
 .ml-10{
-    margin-left: 0.56rem !important;
+    margin-left: 0.555556rem !important;
 }
 .ml-20{
-    margin-left: 1.11rem !important;
+    margin-left: 1.111111rem !important;
 }
 .ml-30{
-    margin-left: 1.67rem !important;
+    margin-left: 1.666667rem !important;
 }
 .ml-50{
-    margin-left: 2.77rem !important;
+    margin-left: 2.777778rem !important;
 }
 .ml-100{
-    margin-left: 5.56rem !important;
+    margin-left: 5.555556rem !important;
 }
 .mr-10{
-    margin-right: 0.56rem !important;
+    margin-right: 0.555556rem !important;
 }
 .mr-20{
-    margin-right: 1.11rem !important;
+    margin-right: 1.111111rem !important;
 }
 .mr-30{
-    margin-right: 1.67rem !important;
+    margin-right: 1.666667rem !important;
 }
 .mr-50{
-    margin-right: 2.77rem !important;
+    margin-right: 2.777778rem !important;
 }
 .mr-100{
-    margin-right: 5.56rem !important;
+    margin-right: 5.555556rem !important;
 }
 .mb-0{
     margin-bottom: 0 !important;
 }
 .mb-5{
-    margin-bottom: 0.28rem !important;
+    margin-bottom: 0.277778rem !important;
 }
 .mb-10{
-    margin-bottom: 0.56rem !important;
+    margin-bottom: 0.555556rem !important;
 }
 .mb-15{
-    margin-bottom: 0.83rem !important;
+    margin-bottom: 0.833333rem !important;
 }
 .mb-20{
-    margin-bottom: 1.11rem !important;
+    margin-bottom: 1.111111rem !important;
 }
 .mb-30{
-    margin-bottom: 1.67rem !important;
+    margin-bottom: 1.666667rem !important;
 }
 .mb-40{
-    margin-bottom:2.22rem !important;
+    margin-bottom: 2.222222rem !important;
 }
 .mb-50{
-    margin-bottom: 2.77rem !important;
+    margin-bottom: 2.777778rem !important;
 }
 .mb-60{
-    margin-bottom: 3.33rem !important;
+    margin-bottom: 3.333333rem !important;
 }
 .mb-100{
-    margin-bottom: 5.56rem !important;
+    margin-bottom: 5.555556rem !important;
 }
 .plr-5{
-    padding-left: 0.28rem;
-    padding-right: 0.28rem;
+    padding-left: 0.277778rem;
+    padding-right: 0.277778rem;
 }
 .plr-10 {
-    padding-left: 0.56rem;
-    padding-right: 0.56rem;
+    padding-left: 0.555556rem;
+    padding-right: 0.555556rem;
 }
 .plr-15 {
-    padding-left: 0.83rem;
-    padding-right: 0.83rem;
+    padding-left: 0.833333rem;
+    padding-right: 0.833333rem;
 }
 .plr-20 {
-    padding-left: 1.11rem;
-    padding-right: 1.11rem;
+    padding-left: 1.111111rem;
+    padding-right: 1.111111rem;
 }
 .plr-30 {
-    padding-left: 1.67rem ;
-    padding-right: 1.67rem ;
+    padding-left: 1.666667rem ;
+    padding-right: 1.666667rem ;
 }
 .ptb-10{
-    padding-top: 0.56rem !important;
-    padding-bottom: 0.56rem !important;
+    padding-top: 0.555556rem !important;
+    padding-bottom: 0.555556rem !important;
 }
 .ptb-15{
-    padding-top: 0.83rem !important;
-    padding-bottom: 0.83rem !important;
+    padding-top: 0.833333rem !important;
+    padding-bottom: 0.833333rem !important;
 }
 .ptb-20{
-    padding-top: 1.11rem  !important;
-    padding-bottom: 1.11rem  !important;
+    padding-top: 1.111111rem  !important;
+    padding-bottom: 1.111111rem  !important;
 }
 /*分隔线*/
 .gapline-v{
@@ -689,102 +689,28 @@ input[disabled="disabled"]{
     white-space: nowrap;
 }
 .has-header{
-    padding-top: 44px;
+    padding-top: 2.444444rem;
 }
 .has-footer{
-    padding-bottom: 44px;
+    padding-bottom: 2.444444rem;
 }
 
-
-/**
- * @file iSlider.css
- */
-.islider-outer {
-    display: block;
-    position: relative;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
-
-.islider-outer > li {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    list-style: none;
-    overflow: hidden;
-    display: -moz-box;
-    display: -webkit-box;
-    display: box;
-    -moz-box-pack: center;
-    -webkit-box-pack: center;
-    box-pack: center;
-    -moz-box-align: center;
-    -webkit-box-align: center;
-    box-align: center;
-}
-
-.islider-img > img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.islider-sliding {
-    z-index: 0;
-}
-
-.islider-sliding-focus {
-    z-index: 1;
-}
-
-.islider-dot-wrap {
-    position: absolute;
-    margin: 0 auto;
-    padding: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 10000;
-    text-align: center;
-}
-
-.islider-dot {
-    position: relative;
-    display: inline-block;
-    margin: 5px;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    list-style: none;
-    border: 1px solid #ffffff;
-}
-
-.islider-dot.active {
-    background-color: #ffffff;
-}
 
 /*按钮*/
 .btn-yz{
-    width: 6.67rem;
-    font-size:0.78rem ;
-    padding:0.28rem 0.28rem ;
+    width: 6.666667rem;
+    font-size:0.777778rem ;
+    padding:0.277778rem 0.277778rem ;
 }
 .btn-block{
     display: block;
     text-align: center;
     outline: none;
     border: 1px solid #ddd;
-    padding: 5px 0.67rem;
+    padding: 0.277778rem 0.666667rem;
     box-shadow: 2px 1px 1px #eee;
     color: #999;
-    font-size: 0.77rem;
+    font-size: 0.777778rem;
     background: #f3f3f3
 }
 .btn-red{
