@@ -199,29 +199,29 @@ input[disabled="disabled"]{
     font-size: 12px!important;
 }
 .fs14{
-    font-size: 14px!important;
+    font-size: 0.777778rem!important;
 }
 .fs15{
-    font-size: 15px!important;
+    font-size: 15px!important; 
 }
 .fs16{
-    font-size: 16px!important;
+    font-size: 0.888889rem!important;
 }
 .fs18{
-    font-size: 18px !important;
+    font-size: 1.0rem !important;
 }
 
 .fs20{
-    font-size: 20px !important;
+    font-size: 1.111111rem !important;
 }
 .fs22{
-    font-size: 22px !important;
+    font-size: 1.222222rem !important;
 }
 .fs24{
-    font-size: 24px !important;
+    font-size: 1.333333rem !important;
 }
 .fs26{
-    font-size: 26px!important;
+    font-size: 1.444444rem!important;
 }
 /*边框*/
 .border0{
@@ -610,7 +610,7 @@ input[disabled="disabled"]{
     margin-bottom: 2.222222rem !important;
 }
 .mb-50{
-    margin-bottom: 2.777778rem !important;
+    margin-bottom: 2.777778rem !important; 
 }
 .mb-60{
     margin-bottom: 3.333333rem !important;
